@@ -1,0 +1,26 @@
+
+
+<div class="col-lg-4 col-md-4 col-sm-6 col-sx-1 sidebar-nav">
+    <div class="profile" ng-show="vm.profile">
+      <div class="profile__header">
+        <img ng-show="!vm.isEmpty(vm.profile.image[0])" class="profile-image" src="{{vm.profile.image[0].image}}">
+      </div>
+      <div class="profile__info">
+        <h1 class="profile__full_name">{{ vm.profile.full_name}}</h1>
+        <p class="profile-title">{{vm.profile.job_title}} </p>
+        <a class="profile-handle" href="/{{vm.profile.username}}" class="profile__username">@{{ vm.profile.username }}</a>
+
+        <p class="profile-short-bio">{{ vm.profile.tagline }}</p>
+
+        <div class="profile-location" ng-show="!vm.isEmpty(vm.profile.address_city)"><i class="glyphicon glyphicon-map-marker" padding-right=10px></i>&nbsp;{{vm.profile.address_city}}, {{vm.profile.address_state}}</div>
+        <div class="profile-website" ng-show="!vm.isEmpty(vm.profile.personal_website)"><i class="glyphicon glyphicon-link" padding-right=10px></i>&nbsp; <a href="{{vm.profile.personal_website}}">Website</a></div>
+      </div>
+      <div class="about-tab"><span class="glyphicon glyphicon-user"></span>&nbsp;<a href="#">ABOUT ME</a></div>
+    </div>
+</div>
+
+<div class="col-lg-8 col-md-8 col-sm-6 col-xs-11">
+    <div ng-repeat="post in vm.posts">
+        <post post="post"></post>
+    </div>
+</div>

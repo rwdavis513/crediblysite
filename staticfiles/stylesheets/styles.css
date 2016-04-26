@@ -1,0 +1,123 @@
+.no-posts-here {
+  text-align: center;
+}
+
+.post {}
+
+.post .post__meta {
+  font-weight: bold;
+  text-align: left;
+  padding-bottom: 19px;
+
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color:#00aeff;
+}
+
+.post .post__meta a:hover {
+  text-decoration: none;
+}
+
+.btn-add-new-post {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+/* Adding padding to body to allow fixed navbar on top */
+
+body {
+  padding-top: 70px;
+  background-color: white;
+
+}
+
+/* Navigation Logo settings */
+.navbar {
+  background-color: #278ff1;
+}
+
+.navbar-brand {
+	color: white;
+    float:left;
+	position: relative;
+	font-size: 22px;
+	line-height: 50px;
+	font-weight: 100;
+	letter-spacing: 2px;
+
+}
+
+.logo:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.menuItems {
+    color: white;
+    font-size: 14px;
+	line-height: 50px;
+	font-weight: 100;
+	letter-spacing: 2px;
+}
+
+.btn-nav {
+	border:1px solid white;
+	border-radius: 5px;
+	padding:5px 10px;
+	margin:0 10px;
+	text-decoration: none;
+	color:#eb5f5f;
+	background-color: #f6f6f5;
+	font-weight: 600;
+	font-size: 14px
+}
+
+.btn-nav:hover {
+	color: #0FA0CE;
+	text-decoration: none;
+}
+
+
+/*Used in profile.html. In Future, replace with generic bootstrap/skeleton class*/
+.profile-image{
+
+	width: 250px;
+	margin: 0;
+	box-sizing: border-box;
+	margin-top: 0px;
+	position: relative;
+	border-bottom: 5px solid white;
+
+	}
+
+.profile {
+	background-color: #eaeef0;
+	width: 250px;
+}
+.profile__header{
+	text-align: center;
+
+}
+.profile__info{
+	padding:0 20px 10px 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
+	font-color: black;
+}
+
+.about-tab {
+	padding:10px 10px 10px 25px;
+	background-color: #27c4f1;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+.about-tab a { color:white; font-size: 22px; text-decoration: none; vertical-align: top; line-height:33px;}
+
+.about-tab:hover{
+
+	background-color: #18a9d3;
+	color:white;
+
+}

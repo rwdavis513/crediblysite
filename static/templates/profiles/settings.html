@@ -1,0 +1,76 @@
+<div class="col-md-4 col-md-offset-4">
+  <div class="well" ng-show="vm.profile">
+    <form role="form" class="settings" ng-submit="vm.update()">
+      <div class="form-group">
+        <label for="settings__email">Email</label>
+        <input type="text" class="form-control" id="settings__email" ng-model="vm.profile.email" placeholder="ex. johnsmith@example.com" />
+      </div>
+      <div class="form-group">
+        <label for="settings__first_name">Name</label>
+        <input type="text" class="form-control" id="settings__first_name" ng-model="vm.profile.first_name" placeholder="ex. John" />
+        <input type="text" class="form-control" id="settings__last_name" ng-model="vm.profile.last_name" placeholder="ex. Smith" />
+      </div>
+
+      <div class="form-group">
+        <label for="settings__password">New Password</label>
+        <input type="password" class="form-control" id="settings__password" ng-model="vm.profile.password" placeholder="Type Password here" />
+      </div>
+
+      <div class="form-group">
+        <label for="settings__confirm-password">Confirm Password</label>
+        <input type="password" class="form-control" id="settings__confirm-password" ng-model="vm.profile.confirm_password" placeholder="Type Password here" />
+      </div>
+
+      <div class="form-group">
+        <label for="settings__username">Username</label>
+        <input type="text" class="form-control" id="settings__username" ng-model="vm.profile.username" placeholder="ex. john.smith" />
+      </div>
+
+      <div class="form-group">
+        <label for="settings__job_title">Job Title</label>
+        <input type="text" class="form-control" id="settings__job_title" ng-model="vm.profile.job_title" placeholder="ex. Engineer" />
+      </div>
+
+      <div class="form-group">
+        <label for="settings__tagline">Tagline</label>
+        <textarea class="form-control" id="settings__tagline" ng-model="vm.profile.tagline" placeholder="Insert Tagline here" />
+      </div>
+
+      <div class="form-group">
+        <label for="settings__address_street">Address</label>
+        <input type="text" class="form-control" id="settings__address_street" ng-model="vm.profile.address_street" placeholder="ex. 123 N Center St" />
+        <input type="text" class="form-control" id="settings__address_city" ng-model="vm.profile.address_city" placeholder="ex. Denver" />
+        <input type="text" class="form-control" id="settings__address_state" ng-model="vm.profile.address_state" placeholder="ex. CO" />
+
+      </div>
+
+      <div class="form-group">
+        <label for="settings__personal_website">Website</label>
+        <input type="url" class="form-control" id="settings__personal_website" ng-model="vm.profile.personal_website" />
+      </div>
+
+      <!--
+      <div class="up-buttons">
+        ng-model-options="modelOptionsObj"
+        <div name="vm.imageForm" ngf-select ngf-drop ng-model="file" ngf-model-invalid="invalidFiles"
+
+           ngf-multiple="multiple" ngf-pattern="pattern" accept="{{acceptSelect}}"
+           ng-disabled="disabled" ngf-capture="capture"
+           ngf-drag-over-class="dragOverClassObj"
+           ngf-validate="validateObj"
+           ngf-keep="keepDistinct ? 'distinct' : keep"
+           ngf-allow-dir="allowDir" class="drop-box" ngf-drop-available="dropAvailable">Select File,
+          <span ng-show="dropAvailable">Drop File or Paste/Drop Image</span>
+        </div>
+        <br/>
+      </div>
+      -->
+      <div class="btn btn-info btn-sm" ngf-select="vm.upload($file)">Upload Profile Image</div>
+
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="button" class="btn btn-danger pull-right" ng-click="vm.destroy()">Delete Account</button>
+      </div>
+    </form>
+  </div>
+</div>

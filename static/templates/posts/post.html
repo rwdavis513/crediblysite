@@ -1,0 +1,35 @@
+<div class="row">
+  <div class="col-sm-12">
+    <div class="well">
+      <div class="post">
+        <!--
+        <div class="post__meta">
+          <a href="/{{post.recipient.username}}">
+          TO: {{ post.recipient.username }}
+          </a>
+        </div>-->
+        <div class="author-byline">
+          <span class="author-name">
+            <a href="/{{ post.author.username }}">
+
+              <div ng-show="post.author.full_name"> {{ post.author.full_name }}</div>
+              <div ng-show="!post.author.full_name">{{ post.author.username }}</div>
+              <!--{{vm.isEmpty(post.author.full_name) ? 'post.author.username' : 'post.author.full_name'}}-->
+            </a>
+          </span>
+          <span ng-show="post.author.job_title" class="author-title"> {{post.author.job_title}} </span>
+          <span ng-show="post.relationship" class="author-relationship">  Relationship: {{post.relationship}} </span>
+        </div>
+
+        <div class="post__content">
+          "{{ post.content }}"
+        </div>
+
+        <div class="post-meta-tag">
+          CREATED ON {{post.created_at}}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

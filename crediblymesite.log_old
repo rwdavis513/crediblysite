@@ -1,0 +1,1702 @@
+This is the PostViewSet. thank you!
+Creating post..
+{u'content': u'Please work really...', u'recipient': u'BOB.DAVIS'}
+OrderedDict([('content', u'Please work really...')])
+This is the PostViewSet. thank you!
+Creating post..
+{u'content': u'Thanks for learning how to use loggers.', u'recipient': u'sam.duncan'}
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 25, in perform_create
+    logger.debug(serializer.validated_data[recipient])
+NameError: global name 'recipient' is not defined
+This is the PostViewSet. thank you!
+Creating post..
+{u'content': u'Thank you!', u'recipient': u'John.Doe'}
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 25, in perform_create
+    logger.debug(serializer.validated_data['recipient'])
+KeyError: 'recipient'
+This is the PostViewSet. thank you!
+Creating post..
+{u'content': u'thanksyou', u'recipient': u'test'}
+<class 'collections.OrderedDict'>
+This is the PostViewSet. thank you!
+Creating post..
+{u'content': u'thanks', u'recipient': u'asf'}
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 25, in perform_create
+    logger.debug(serializer.validated_data['recipient'])
+KeyError: 'recipient'
+This is the PostViewSet. thank you!
+Creating post..
+{u'content': u'thanks', u'recipient': u'johnDoe'}
+OrderedDict([('content', u'thanks')])
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 26, in perform_create
+    logger.debug(serializer.validated_data['recipient'])
+KeyError: 'recipient'
+This is the PostViewSet. thank you!
+Creating post..
+{u'content': u'Have a great day sam', u'recipient': u'Sam.Smith'}
+Sam.Smith
+OrderedDict([('content', u'Have a great day sam')])
+This is the PostViewSet. thank you!
+Creating post..
+{u'content': u'Steve you did an excellent job at work today.', u'recipient': u'Steve.Henry'}
+Steve.Henry
+OrderedDict([('content', u'Steve you did an excellent job at work today.')])
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 28, in perform_create
+    recipient = Account.objects.get(username=self.request.DATA['recipient'])  # return the associated account with the entered username. Probably need to add validation here.
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/manager.py", line 92, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 357, in get
+    self.model._meta.object_name)
+DoesNotExist: Account matching query does not exist.
+Creating post..
+{u'content': u'Thanks For a great day!', u'recipient': u'Bob.Davis1'}
+Bob.Davis1
+OrderedDict([('content', u'Thanks For a great day!')])
+Bob.Davis1@credibly.me
+Creating post..
+{u'content': u'Thank you come again!', u'recipient': u'SAM.SMITH'}
+SAM.SMITH
+OrderedDict([('content', u'Thank you come again!')])
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 28, in perform_create
+    recipient = Account.objects.get(username=self.request.DATA['recipient'])  # return the associated account with the entered username. Probably need to add validation here.
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/manager.py", line 92, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 357, in get
+    self.model._meta.object_name)
+DoesNotExist: Account matching query does not exist.
+Creating post..
+{u'content': u'Thanks for putting in the extra effort on that project.', u'recipient': u'Sam.Smith'}
+Sam.Smith
+OrderedDict([('content', u'Thanks for putting in the extra effort on that project.')])
+Sam.Smith@credibly.me
+This is the PostViewSet. thank you!
+This is the PostViewSet. thank you!
+This is the PostViewSet. thank you!
+This is the PostViewSet. thank you!
+This is the PostViewSet. thank you!
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 28, in perform_create
+    recipient = Account.objects.get(username=self.request.DATA['recipient'])  # return the associated account with the entered username. Probably need to add validation here.
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/manager.py", line 92, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 357, in get
+    self.model._meta.object_name)
+DoesNotExist: Account matching query does not exist.
+This is the PostViewSet. thank you!
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 98, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 343, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 372, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/dev/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 26, in <module>
+    url('', include('social.apps.django_app.urls', namespace='social')),
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/social/__init__.py", line 5, in <module>
+    from .fsong import *
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/social/fsong.py", line 1, in <module>
+    import gmane as g, networkx as x, pylab as p, numpy as n, os
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/gmane/__init__.py", line 21, in <module>
+    from .listDataStructures import ListDataStructures
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/gmane/listDataStructures.py", line 1, in <module>
+    import dateutil.parser
+ImportError: No module named dateutil.parser
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 87, in get_response
+    response = middleware_method(request)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/middleware/common.py", line 72, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 619, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 494, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 343, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 372, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/dev/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 26, in <module>
+    url('', include('social.apps.django_app.urls', namespace='social')),
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/social/__init__.py", line 5, in <module>
+    from .fsong import *
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/social/fsong.py", line 1, in <module>
+    import gmane as g, networkx as x, pylab as p, numpy as n, os
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/gmane/__init__.py", line 21, in <module>
+    from .listDataStructures import ListDataStructures
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/gmane/listDataStructures.py", line 1, in <module>
+    import dateutil.parser
+ImportError: No module named dateutil.parser
+This is the PostViewSet. thank you!
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 98, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 343, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 372, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/dev/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 26, in <module>
+    url('', include('social.apps.django_app.urls', namespace='social')),
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named social.apps.django_app.urls
+This is the PostViewSet. thank you!
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 98, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 343, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 372, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/dev/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 26, in <module>
+    url('', include('social.apps.django_app.urls', namespace='social')),
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named social.apps.django_app.urls
+This is the PostViewSet. thank you!
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 98, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 343, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 372, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/dev/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 26, in <module>
+    url('', include('social.apps.django_app.urls', namespace='social')),
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named social.apps.django_app.urls
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 98, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 343, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 372, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/dev/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 26, in <module>
+    url('', include('social.apps.django_app.urls', namespace='social')),
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named social.apps.django_app.urls
+This is the PostViewSet. thank you!
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 98, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 343, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 372, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/dev/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 26, in <module>
+    url('', include('social.apps.django_app.urls', namespace='social')),
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named social.apps.django_app.urls
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 98, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 343, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 372, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/dev/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 26, in <module>
+    url('', include('social.apps.django_app.urls', namespace='social')),
+  File "/home/rwdavis513/.virtualenvs/thinkster-django/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named social.apps.django_app.urls
+This is the PostViewSet. thank you!
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 98, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 343, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 372, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/dev/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 26, in <module>
+    url('', include('social.apps.django_app.urls', namespace='social')),
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/social/__init__.py", line 5, in <module>
+    from .fsong import *
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/social/fsong.py", line 1, in <module>
+    import gmane as g, networkx as x, pylab as p, numpy as n, os
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/gmane/__init__.py", line 21, in <module>
+    from .listDataStructures import ListDataStructures
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/gmane/listDataStructures.py", line 1, in <module>
+    import dateutil.parser
+ImportError: No module named dateutil.parser
+This is the PostViewSet. thank you!
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 98, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 343, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 372, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 366, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/dev/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 26, in <module>
+    url('', include('social.apps.django_app.urls', namespace='social')),
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/conf/urls/__init__.py", line 28, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/social/__init__.py", line 5, in <module>
+    from .fsong import *
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/social/fsong.py", line 1, in <module>
+    import gmane as g, networkx as x, pylab as p, numpy as n, os
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/gmane/__init__.py", line 21, in <module>
+    from .listDataStructures import ListDataStructures
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/gmane/listDataStructures.py", line 1, in <module>
+    import dateutil.parser
+ImportError: No module named dateutil.parser
+This is the PostViewSet. thank you!
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 547, in data
+    ret = super(ListSerializer, self).data
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 174, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 385, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 278, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 63, in get_attribute
+    instance = getattr(instance, attr)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/related.py", line 568, in __get__
+    qs = qs.filter(**params)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 691, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 709, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1287, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1314, in _add_q
+    current_negated=current_negated, connector=connector)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1186, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1094, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 82, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 646, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 915, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 547, in data
+    ret = super(ListSerializer, self).data
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 174, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 385, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 278, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 63, in get_attribute
+    instance = getattr(instance, attr)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/related.py", line 568, in __get__
+    qs = qs.filter(**params)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 691, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 709, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1287, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1314, in _add_q
+    current_negated=current_negated, connector=connector)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1186, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1094, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 82, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 646, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 915, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 547, in data
+    ret = super(ListSerializer, self).data
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 174, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 385, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 278, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 63, in get_attribute
+    instance = getattr(instance, attr)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/related.py", line 568, in __get__
+    qs = qs.filter(**params)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 691, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 709, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1287, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1314, in _add_q
+    current_negated=current_negated, connector=connector)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1186, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1094, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 82, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 646, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 915, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+This is the PostViewSet. thank you!
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 547, in data
+    ret = super(ListSerializer, self).data
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 174, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 385, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 278, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 63, in get_attribute
+    instance = getattr(instance, attr)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/related.py", line 568, in __get__
+    qs = qs.filter(**params)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 691, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 709, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1287, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1314, in _add_q
+    current_negated=current_negated, connector=connector)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1186, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1094, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 82, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 646, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 915, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+Internal Server Error: /api/v1/accounts/Bob.Davis1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 42, in list
+    queryset = self.queryset.get(recipient__username=account_username)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 357, in get
+    self.model._meta.object_name)
+DoesNotExist: Post matching query does not exist.
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 547, in data
+    ret = super(ListSerializer, self).data
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 174, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 385, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 278, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 63, in get_attribute
+    instance = getattr(instance, attr)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/related.py", line 568, in __get__
+    qs = qs.filter(**params)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 691, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 709, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1287, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1314, in _add_q
+    current_negated=current_negated, connector=connector)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1186, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1094, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 82, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 646, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 915, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+This is the PostViewSet. thank you!
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 547, in data
+    ret = super(ListSerializer, self).data
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 174, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    self.child.to_representation(item) for item in iterable
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 385, in to_representation
+    attribute = field.get_attribute(instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 278, in get_attribute
+    return get_attribute(instance, self.source_attrs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/fields.py", line 63, in get_attribute
+    instance = getattr(instance, attr)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/related.py", line 568, in __get__
+    qs = qs.filter(**params)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 691, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 709, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1287, in add_q
+    clause, require_inner = self._add_q(where_part, self.used_aliases)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1314, in _add_q
+    current_negated=current_negated, connector=connector)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1186, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/sql/query.py", line 1094, in build_lookup
+    return final_lookup(lhs, rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 82, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/lookups.py", line 85, in get_prep_lookup
+    return self.lhs.output_field.get_prep_lookup(self.lookup_name, self.rhs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 646, in get_prep_lookup
+    return self.get_prep_value(value)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 915, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: ''
+This is the PostViewSet. thank you!
+This is the PostViewSet. thank you!
+This is the PostViewSet. thank you!
+This is the PostViewSet. thank you!
+Internal Server Error: /api/v1/accounts/Josiah.Colt/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 41, in list
+    queryset = self.queryset.get(recipient__username=account_username)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 361, in get
+    num if num <= MAX_GET_RESULTS else 'more than %s' % MAX_GET_RESULTS
+MultipleObjectsReturned: get() returned more than one Post -- it returned 5!
+Internal Server Error: /api/v1/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/mixins.py", line 21, in create
+    self.perform_create(serializer)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 27, in perform_create
+    recipient = Account.objects.get(username=self.request.DATA['recipient'])  # return the associated account with the entered username. Probably need to add validation here.
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/manager.py", line 92, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 357, in get
+    self.model._meta.object_name)
+DoesNotExist: Account matching query does not exist.
+Internal Server Error: /api/v1/accounts/Josiah.Colt/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 41, in list
+    queryset = self.queryset.get(recipient__username=account_username)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 361, in get
+    num if num <= MAX_GET_RESULTS else 'more than %s' % MAX_GET_RESULTS
+MultipleObjectsReturned: get() returned more than one Post -- it returned 5!
+Internal Server Error: /api/v1/accounts/Tyler.Anderson/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 41, in list
+    queryset = self.queryset.get(recipient__username=account_username)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 361, in get
+    num if num <= MAX_GET_RESULTS else 'more than %s' % MAX_GET_RESULTS
+MultipleObjectsReturned: get() returned more than one Post -- it returned 2!
+This is the PostViewSet. thank you!
+Internal Server Error: /api/v1/accounts/Tyler.Anderson/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 44, in list
+    return Response(serializer.data)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 547, in data
+    ret = super(ListSerializer, self).data
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 174, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'Post' object is not iterable
+This is the PostViewSet. thank you!
+Internal Server Error: /api/v1/accounts/Tyler.Anderson/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 44, in list
+    return Response(serializer.data)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 547, in data
+    ret = super(ListSerializer, self).data
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 174, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 500, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'Post' object is not iterable
+This is the PostViewSet. thank you!
+Internal Server Error: /api/v1/accounts/Tyler.Anderson/posts/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 111, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 57, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/viewsets.py", line 79, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/dev/crediblysite/posts/views.py", line 41, in list
+    queryset = self.queryset.get(recipient__username=account_username)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/db/models/query.py", line 361, in get
+    num if num <= MAX_GET_RESULTS else 'more than %s' % MAX_GET_RESULTS
+MultipleObjectsReturned: get() returned more than one Post -- it returned 2!
+This is the PostViewSet. thank you!
+This is the PostViewSet. thank you!
+This is the PostViewSet. thank you!
+Internal Server Error: /api/v1/imageUpload
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes at least 3 arguments (2 given)
+Internal Server Error: /api/v1/auth/login/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes at least 3 arguments (2 given)
+Internal Server Error: /api/v1/auth/login/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes at least 3 arguments (2 given)
+Internal Server Error: /api/v1/auth/login/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes at least 3 arguments (2 given)
+Method Not Allowed (POST): /api/v1/fileUpload
+Method Not Allowed (POST): /api/v1/fileUpload
+Method Not Allowed (POST): /api/v1/fileUpload
+Method Not Allowed (POST): /api/v1/fileUpload
+Forbidden (CSRF cookie not set.): /api/v1/fileUpload
+Forbidden (CSRF cookie not set.): /api/v1/fileUpload
+Method Not Allowed (POST): /api/v1/fileUpload
+Method Not Allowed (POST): /api/v1/fileUpload
+Method Not Allowed (POST): /api/v1/fileUpload
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 83, in post
+    with open('/static/media/images/' + request.user.username + '.jpg', 'wb+') as destination:
+IOError: [Errno 2] No such file or directory: u'/static/media/images/Bob.Davis.jpg'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes at least 3 arguments (2 given)
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes at least 3 arguments (2 given)
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes at least 3 arguments (2 given)
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes at least 3 arguments (2 given)
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes at least 3 arguments (2 given)
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 82, in post
+    filename = request.data['filename']
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 34, in __getitem__
+    raise KeyError(key)
+KeyError: 'filename'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 82, in post
+    filename = request.data['filename']
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 34, in __getitem__
+    raise KeyError(key)
+KeyError: 'filename'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 87, in post
+    with open('/static/media/images/' + request.username + '.jpg', 'wb+') as destination:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/request.py", line 487, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'username'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 87, in post
+    with open('/static/media/images/' + request.username + '.jpg', 'wb+') as destination:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/request.py", line 487, in __getattr__
+    return getattr(self._request, attr)
+AttributeError: 'WSGIRequest' object has no attribute 'username'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 87, in post
+    with open('/static/media/images/' + self.request.user + '.jpg', 'wb+') as destination:
+TypeError: cannot concatenate 'str' and 'SimpleLazyObject' objects
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 88, in post
+    with open('/static/media/images/' + str(self.request.user) + '.jpg', 'wb+') as destination:
+IOError: [Errno 2] No such file or directory: '/static/media/images/Bob.Davis@credibly.me.jpg'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 88, in post
+    with open('/static/media/images/' + str(self.request.user) + '.jpg', 'wb+') as destination:
+IOError: [Errno 2] No such file or directory: '/static/media/images/Bob.Davis@credibly.me.jpg'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 88, in post
+    with open('/static/media/images/' + str(self.request.data['filename']) + '.jpg', 'wb+') as destination:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 34, in __getitem__
+    raise KeyError(key)
+KeyError: 'filename'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 88, in post
+    with open('/static/media/images/' + str(self.request.data['filename']) + '.jpg', 'wb+') as destination:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 34, in __getitem__
+    raise KeyError(key)
+KeyError: 'filename'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 88, in post
+    with open('/static/media/images/' + str(self.request.DATA['filename']) + '.jpg', 'wb+') as destination:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 322, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'filename'"
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 88, in post
+    with open('/static/media/images/' + str(self.request.DATA['filename']) + '.jpg', 'wb+') as destination:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/utils/datastructures.py", line 322, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+MultiValueDictKeyError: "'filename'"
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 86, in post
+    data = json.loads(request.body)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/request.py", line 487, in __getattr__
+    return getattr(self._request, attr)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/http/request.py", line 231, in body
+    raise RawPostDataException("You cannot access body after reading from request's data stream")
+RawPostDataException: You cannot access body after reading from request's data stream
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 86, in post
+    data = json.loads(request.body)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/request.py", line 487, in __getattr__
+    return getattr(self._request, attr)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/http/request.py", line 231, in body
+    raise RawPostDataException("You cannot access body after reading from request's data stream")
+RawPostDataException: You cannot access body after reading from request's data stream
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 88, in post
+    data = json.loads(request.data)
+  File "/usr/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 88, in post
+    data = json.loads(request.data)
+  File "/usr/lib/python2.7/json/__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python2.7/json/decoder.py", line 366, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+TypeError: expected string or buffer
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 92, in post
+    with open('/static/media/images/' + self.request.user.username + '.jpg', 'wb+') as destination:
+IOError: [Errno 2] No such file or directory: u'/static/media/images/Bob.Davis.jpg'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 92, in post
+    with open('/static/media/images/' + self.request.user.username + '.jpg', 'wb+') as destination:
+IOError: [Errno 2] No such file or directory: u'/static/media/images/Bob.Davis.jpg'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 92, in post
+    with open('/static/media/images/' + self.request.user.username + '.jpg', 'wb+') as destination:
+IOError: [Errno 2] No such file or directory: u'/static/media/images/Bob.Davis.jpg'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 92, in post
+    with open('/static/media/images/' + self.request.user.username + '.jpg', 'wb+') as destination:
+IOError: [Errno 2] No such file or directory: u'/static/media/images/Bob.Davis.jpg'
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 93, in post
+    for chunk in f.chunks():
+NameError: global name 'f' is not defined
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 93, in post
+    for chunk in f.chunks():
+NameError: global name 'f' is not defined
+Internal Server Error: /api/v1/fileUpload/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 93, in post
+    for chunk in file_obj.chunks():
+AttributeError: 'unicode' object has no attribute 'chunks'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 6, in <module>
+    from authentication.views import AccountViewSet, LoginView, LogoutView
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 81, in <module>
+    class UserImageListView(views.APIView):
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 82, in UserImageListView
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly)
+NameError: name 'IsOwnerOrReadOnly' is not defined
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 646, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 521, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 6, in <module>
+    from authentication.views import AccountViewSet, LoginView, LogoutView
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 81, in <module>
+    class UserImageListView(views.APIView):
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 82, in UserImageListView
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly)
+NameError: name 'IsOwnerOrReadOnly' is not defined
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 646, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 521, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 6, in <module>
+    from authentication.views import AccountViewSet, LoginView, LogoutView
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 81, in <module>
+    class UserImageListView(views.APIView):
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 82, in UserImageListView
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly, IsOwnerOrReadOnly)
+NameError: name 'IsOwnerOrReadOnly' is not defined
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 119, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 6, in <module>
+    from authentication.views import AccountViewSet, LoginView, LogoutView
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 81, in <module>
+    class UserImageListView(views.APIView):
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 82, in UserImageListView
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly, permissions.IsOwnerOrReadOnly)
+AttributeError: 'module' object has no attribute 'IsOwnerOrReadOnly'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 646, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 521, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 6, in <module>
+    from authentication.views import AccountViewSet, LoginView, LogoutView
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 81, in <module>
+    class UserImageListView(views.APIView):
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 82, in UserImageListView
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly, permissions.IsOwnerOrReadOnly)
+AttributeError: 'module' object has no attribute 'IsOwnerOrReadOnly'
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 646, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 521, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 6, in <module>
+    from authentication.views import AccountViewSet, LoginView, LogoutView
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 81, in <module>
+    class UserImageListView(views.APIView):
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 82, in UserImageListView
+    permission_classes = (permissions.IsAuthenticatedOrReadOnly, permissions.IsOwnerOrReadOnly)
+AttributeError: 'module' object has no attribute 'IsOwnerOrReadOnly'
+Method Not Allowed (POST): /api/v1/auth/userImage
+Internal Server Error: /+Bob.Davis/settings
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 646, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 521, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 6, in <module>
+    from authentication.views import AccountViewSet, LoginView, LogoutView
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 9, in <module>
+    from authentication.serializers import AccountSerializer, UserImageSerializer
+ImportError: cannot import name UserImageSerializer
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 646, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 521, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 6, in <module>
+    from authentication.views import AccountViewSet, LoginView, LogoutView
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 9, in <module>
+    from authentication.serializers import AccountSerializer, UserImageSerializer
+ImportError: cannot import name UserImageSerializer
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 646, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 521, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 6, in <module>
+    from authentication.views import AccountViewSet, LoginView, LogoutView
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 9, in <module>
+    from authentication.serializers import AccountSerializer, UserImageSerializer
+ImportError: cannot import name UserImageSerializer
+Method Not Allowed (POST): /api/v1/auth/userImage
+Internal Server Error: /+Bob.Davis/settings
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 646, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 521, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 24, in <module>
+    url(r'^api/v1/auth/userImage/(?P<pk>[0-9]+)/$', UserImageDetailView.as_view(), name='userImageDetail'),
+NameError: name 'UserImageDetailView' is not defined
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 646, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 521, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 24, in <module>
+    url(r'^api/v1/auth/userImage/(?P<pk>[0-9]+)/$', UserImageDetailView.as_view(), name='userImageDetail'),
+NameError: name 'UserImageDetailView' is not defined
+Internal Server Error: /favicon.ico
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 108, in get_response
+    response = middleware_method(request)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/middleware/common.py", line 74, in process_request
+    if (not urlresolvers.is_valid_path(request.path_info, urlconf) and
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 646, in is_valid_path
+    resolve(path, urlconf)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 521, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in resolve
+    for pattern in self.url_patterns:
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 401, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 395, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/rwdavis513/crediblysite/crediblysite/thinkster_django_angular_boilerplate/urls.py", line 24, in <module>
+    url(r'^api/v1/auth/userImage/(?P<pk>[0-9]+)/$', UserImageDetailView.as_view(), name='userImageDetail'),
+NameError: name 'UserImageDetailView' is not defined
+Method Not Allowed (POST): /api/v1/auth/userImage
+Internal Server Error: /api/v1/auth/userImage/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 91, in post
+    if serializer.is_valid():
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 158, in is_valid
+    self._validated_data = self.run_validation(self._initial_data)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 313, in run_validation
+    value = self.to_internal_value(data)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 352, in to_internal_value
+    field for field in self.fields.values()
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 245, in fields
+    for key, value in self.get_fields().items():
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/serializers.py", line 881, in get_fields
+    (field_name, model.__class__.__name__)
+ImproperlyConfigured: Field name `tag` is not valid for model `ModelBase`.
+Internal Server Error: /api/v1/auth/userImage/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 92, in post
+    console.log(request.data)
+NameError: global name 'console' is not defined
+Internal Server Error: /api/v1/auth/userImage/
+Traceback (most recent call last):
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/decorators/csrf.py", line 58, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 406, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/rwdavis513/.virtualenvs/crediblysite/local/lib/python2.7/site-packages/rest_framework/views.py", line 403, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/rwdavis513/crediblysite/crediblysite/authentication/views.py", line 92, in post
+    console.log(request.data)
+NameError: global name 'console' is not defined
